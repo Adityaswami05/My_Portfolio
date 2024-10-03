@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kailash Swami - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loading-animation"></div>
+    </div>
+
+    <div class="animated-bg"></div>
+
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="nav-logo">
+                <img src="VIRUS-Photoroom.png" alt="Aditya Kailash Swami Logo" class="logo-image" />
+            </a>            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h1 class="glitch" data-text="Aditya Kailash Swami">Aditya Kailash Swami</h1>
+                <p class="animated-title neon-text">Full Stack Developer & AI & ML Enthusiast</p>
+                <div class="cta-buttons">
+                    <a href="Aditya_Resume.pdf" class="btn btn-outline" download="Aditya_Swami_Resume.pdf">Download Resume</a>
+
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>                
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi, I'm Aditya Kailash Swami, a passionate Computer Science student specializing in Artificial Intelligence (AI) and Machine Learning (ML) at VIT Chennai. With a strong foundation in both front-end and back-end technologies, I love building innovative solutions that leverage data to drive intelligent decision-making. I enjoy working on personal projects that integrate cutting-edge technologies, and I'm always eager to collaborate with like-minded individuals who share my passion for innovation.</p>
+                        <p>In my free time, I explore various domains of AI and ML, aiming to push the boundaries of what technology can achieve. I'm committed to continuous learning and growth, and I thrive on challenges that allow me to apply my skills in creative and impactful ways.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="aboutme.svg" alt="Aditya Kailash Swami" class="hover-image" />
+                    </div>
+                </div>
+            </div>
+        </section>                
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skill-cards">
+                    <div class="skill-card">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h3 class="skill-name">Frontend</h3>
+                        <p class="skill-level">HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-node-js skill-icon"></i>
+                        <h3 class="skill-name">Backend</h3>
+                        <p class="skill-level">Node.js, Django, RESTful APIs</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-cogs skill-icon"></i>
+                        <h3 class="skill-name">ML</h3>
+                        <p class="skill-level">
+                            TensorFlow, PyTorch, scikit-learn, Keras, NLTK, SpaCy, Hugging Face, Computer Vision
+                        </p>
+                    </div>  
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h3 class="skill-name">Databases</h3>
+                        <p class="skill-level">MongoDB, SQLite, SQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-aws skill-icon"></i>
+                        <h3 class="skill-name">DevOps</h3>
+                        <p class="skill-level">AWS, Docker, Azure</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python skill-icon"></i>
+                        <h3 class="skill-name">Other Languages</h3>
+                        <p class="skill-level">Python, C++</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h3 class="skill-name">Tools</h3>
+                        <p class="skill-level">Postman, Git, GitHub, Canva, Jupyter, Colab</p>
+                    </div>                  
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <img src="/news.svg?height=20&width=30" alt="News Nutshell" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">News Nutshell</h3>
+                            <p class="project-description">A web application that aggregates news from various sources, providing users with summarized articles based on their interests. This project showcases my skills in API integration and data handling.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">API Integration</span>
+                            </div>
+                            <a href="https://github.com/Adityaswami05/News_Nutshell" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/voicepipe.svg" alt="Voice Pipeline" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Voice Pipeline</h3>
+                            <p class="project-description">An innovative voice recognition system that allows users to interact with applications using voice commands. This project demonstrates my understanding of natural language processing and voice interface design.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">Voice Recognition</span>
+                            </div>
+                            <a href="https://github.com/Adityaswami05/Voice_Pipeline" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/face.svg?height=200&width=300" alt="Face Recognition-Based Attendance System" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Face Recognition</h3>
+                            <p class="project-description">An AI-powered attendance system that automates the attendance process using facial recognition technology. This project highlights my expertise in computer vision and machine learning algorithms.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                            <a href="https://github.com/Adityaswami05/FACE_RECOGNITION" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/painter.svg?height=200&width=300" alt="AI-Based Virtual Painter" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">AI-Virtual Painter</h3>
+                            <p class="project-description">A creative application that utilizes AI to transform user sketches into polished artworks. This project combines my interests in AI and art, showcasing the potential of machine learning in creative fields.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">TensorFlow</span>
+                                <span class="tech-tag">Computer Vision</span>
+                            </div>
+                            <a href="https://github.com/adityaswami/ai-virtual-painter" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="/chatbot.svg?height=200&width=300" alt="Simple Chatbot" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Simple Chatbot</h3>
+                            <p class="project-description">A basic chatbot application that engages users in conversation and answers common queries. This project reflects my skills in developing conversational AI systems and understanding user interactions.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">Machine Learning</span>
+                            </div>
+                            <a href="https://github.com/adityaswami/simple-chatbot" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-container left">
+                        <div class="timeline-content">
+                            <h3>B.Tech in Computer Science Specialisation in AI & ML</h3>
+                            <p>Vellore Institute of Technology | Tamil nadu | 2021 - 2025</p>
+                            <p>Graduating with honors, specializing in Artificial Intelligence and Machine Learning.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container right">
+                        <div class="timeline-content">
+                            <h3>12th Standard</h3>
+                            <p>Central Public Sr. Sec. School | Rajasthan | 2019 - 2021</p>
+                            <p>Completed with distinction in Science stream, focusing on Mathematics and Computer Science.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container left">
+                        <div class="timeline-content">
+                            <h3>10th Standard</h3>
+                            <p>St. Michael's School | Telangana | 2018 - 2019</p>
+                            <p>Achieved excellent academic performance with a perfect score in Mathematics & Science.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <form id="contact-form" action="https://formspree.io/f/xkgnwner" method="POST"> <!-- Replace with your Formspree form ID -->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>                        
+        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Aditya Kailash Swami. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://github.com/Adityaswami05" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aditya-swami-b35957262/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/aditya_05_swami?s=11&t=P7mGCxn1MGdNLN7YOQf-kw" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:adityaswami03k@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+91-8522973409" class="social-icon"><i class="fas fa-phone-alt"></i></a>
+            </div>            
+        </div>
+        <div class="footer-wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar"></div>
+    </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', function() {
+            alert('Your message has been sent successfully!');
+        });
+    </script>    
+    <script src="scripts.js"></script>
+</body>
+</html>
