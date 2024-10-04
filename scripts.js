@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Typing effect for animated title
-    const titles = ['Prompt Engineer', 'AI & ML Enthusiast', 'E-Sports Athelete'];
+    const titles = ['Prompt Engineer', 'AI & ML Enthusiast', 'E-Sports Athlete'];
     let titleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
